@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Wireframe — Focus Timer Landing Page</title>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family: Arial, sans-serif; background:#fff; color:#000; }
+  .wrap { max-width: 1100px; margin: 0 auto; }
+  .box { border: 1.5px dashed #999; background: #f7f7f7; display:flex; align-items:center; justify-content:center; color:#777; font-size:13px; text-align:center; padding:8px; }
+  .label { position:absolute; top:6px; left:10px; font-size:10px; color:#aaa; text-transform:uppercase; letter-spacing:1px; }
+  section { position:relative; padding: 28px 24px; border-bottom: 1px solid #ddd; }
+  .nav { display:flex; justify-content:space-between; align-items:center; padding:16px 24px; border-bottom:1px solid #ddd; }
+  .nav .box { width:90px; height:28px; }
+  .navlinks { display:flex; gap:16px; }
+  .navlinks .box { width:60px; height:24px; }
+  .hero { text-align:center; padding-top:60px; padding-bottom:60px; }
+  .hero h1.box { height:50px; max-width:700px; margin:0 auto 14px; font-weight:bold; color:#555; }
+  .hero p.box { height:30px; max-width:500px; margin:0 auto 20px; }
+  .hero .cta-row { display:flex; gap:12px; justify-content:center; margin-bottom:30px; }
+  .hero .cta-row .box { width:160px; height:46px; }
+  .hero .demo { height:280px; max-width:600px; margin:0 auto; }
+  .logos { display:flex; justify-content:center; gap:24px; padding:24px; }
+  .logos .box { width:90px; height:30px; }
+  .features { display:grid; grid-template-columns: repeat(3,1fr); gap:20px; padding:50px 24px; }
+  .feature-card { height:180px; }
+  .feature-card .label { color:#999; }
+  .testimonials { display:grid; grid-template-columns: repeat(3,1fr); gap:20px; padding:50px 24px; }
+  .testimonial { height:160px; }
+  .final-cta { text-align:center; padding:70px 24px; }
+  .final-cta h2.box { height:44px; max-width:500px; margin:0 auto 16px; }
+  .final-cta .box.btn { width:180px; height:48px; margin:0 auto; }
+  footer { display:flex; justify-content:space-between; padding:30px 24px; }
+  footer .box { width:120px; height:60px; }
+  h3.section-title { text-align:center; font-size:14px; color:#999; text-transform:uppercase; letter-spacing:2px; margin-bottom:24px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="nav">
+    <div class="box">LOGO</div>
+    <div class="navlinks">
+      <div class="box">Link</div>
+      <div class="box">Link</div>
+      <div class="box">Link</div>
+    </div>
+    <div class="box" style="width:120px;">Sign up CTA</div>
+  </div>
+
+  <section class="hero">
+    <div class="label">01 — Hero</div>
+    <h1 class="box">HEADLINE — primary value prop (1-2 lines)</h1>
+    <p class="box">Subheadline — supporting detail, 1 line</p>
+    <div class="cta-row">
+      <div class="box">Primary CTA</div>
+      <div class="box">Secondary CTA</div>
+    </div>
+    <div class="box demo">LIVE PRODUCT DEMO / VISUAL<br>(animated timer widget)</div>
+  </section>
+
+  <section>
+    <div class="label">02 — Social proof strip</div>
+    <div class="logos">
+      <div class="box">Logo</div>
+      <div class="box">Logo</div>
+      <div class="box">Logo</div>
+      <div class="box">Logo</div>
+      <div class="box">Logo</div>
+    </div>
+  </section>
+
+  <section>
+    <div class="label">03 — Features (3-up grid)</div>
+    <h3 class="section-title">Section heading</h3>
+    <div class="features">
+      <div class="box feature-card">Feature 1<br>icon + title + desc</div>
+      <div class="box feature-card">Feature 2<br>icon + title + desc</div>
+      <div class="box feature-card">Feature 3<br>icon + title + desc</div>
+    </div>
+  </section>
+
+  <section>
+    <div class="label">04 — Testimonials</div>
+    <h3 class="section-title">Section heading</h3>
+    <div class="testimonials">
+      <div class="box testimonial">Quote + name<br>+ role + avatar</div>
+      <div class="box testimonial">Quote + name<br>+ role + avatar</div>
+      <div class="box testimonial">Quote + name<br>+ role + avatar</div>
+    </div>
+  </section>
+
+  <section class="final-cta">
+    <div class="label">05 — Final CTA</div>
+    <h2 class="box">Closing headline + urgency</h2>
+    <div class="box btn">Primary CTA</div>
+  </section>
+
+  <footer>
+    <div class="label">06 — Footer</div>
+    <div class="box">Logo + tagline</div>
+    <div class="box">Links col</div>
+    <div class="box">Links col</div>
+    <div class="box">Links col</div>
+  </footer>
+
+</div>
+</body>
+</html>
